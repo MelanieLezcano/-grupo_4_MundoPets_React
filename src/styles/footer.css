@@ -1,0 +1,275 @@
+footer{
+    width: 100vw;
+}
+
+footer p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+footer .foot{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 18vw;
+}
+
+footer .copyright{
+    background-color: var(--colorNaranja);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+footer .copyright p{
+    color: var(--colorAzulMarino);
+    font-family: var(--fuenteSubtitulo);
+    font-size:11px;
+    text-align: center;
+    font-weight: 600;
+}
+
+footer .kitty img{
+    object-fit: contain;
+    height: 18vw;
+}
+
+footer .footerDesktop{
+    display: none;
+}
+
+footer .fondoAzul{
+    display: flex;
+    flex-direction: row;
+
+    background-color: var(--colorAzulFrancia);
+    width: 83vw;
+
+}
+
+footer .footerMobile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .contactanos{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+footer .contactanos i{
+    color: white;
+    font-size: 36px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .textoContactanos{
+    color: white;
+    font-family: var(--fuenteSubtitulo);
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+footer .maps i{
+    color: white;
+    font-size: 36px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .whatsapp i{
+    color: white;
+    background-color: rgb(18, 177, 18);
+    border-radius: 20px;
+    font-size: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 41px;
+}
+
+footer .whatsapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width:426px){
+    footer .contactanos i {
+        font-size: 45px;
+    }
+
+    footer .maps i {
+        font-size: 45px;
+    }
+
+    footer .whatsapp i {
+        font-size: 55px;
+        height: 47px;
+    }
+}
+@media (min-width:1024px){
+    footer {
+        position: relative;
+        margin-top: 8%;
+    }
+    footer .foot {
+        height: 20vw;
+    }
+
+    footer .footerMobile{
+        display: none;
+    }
+
+    footer .kitty{
+        display: none;
+    }
+
+    footer .footerDesktop{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer li{
+        color: white;
+        font-size: 23px;
+        font-family: var(--fuenteSubtitulo);
+        font-weight: 500;
+    }
+
+    .foot li a{
+        margin-left: 7px;
+        color: white;
+        font-size: 20px;
+        font-family: var(--fuenteSubtitulo);
+        font-weight: 500;
+    }
+
+    footer a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    footer .textoH4{
+        color: white;
+        font-family: var(--fuenteSubtitulo);
+        font-size: 20px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+
+    footer .mapsDesktop .textoH4{
+        margin-left: 21px;
+    }
+    
+    footer .mapsDesktop i{
+        color: white;
+        font-size: 50px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    footer .mapsDesktop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        margin-left: 7px;
+    }
+    
+    footer .whatsappDesktop i{
+        color: white;
+        background-color: rgb(18, 177, 18);
+        border-radius: 32px;
+        font-size: 67px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60px;
+    }
+    
+    footer .whatsappDesktop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    footer .logo img{
+        object-fit: contain;
+        height: 13vw;
+    }
+
+    footer .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .fondoAzul{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    footer .copyright p {
+        font-size: 16px;
+    }
+
+    footer .divColum{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    footer .lista{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 1500px){
+    footer .foot {
+        height: 15vw;
+    }
+    footer .logo img{
+        object-fit: contain;
+        height: 10vw;
+    }
+
+}

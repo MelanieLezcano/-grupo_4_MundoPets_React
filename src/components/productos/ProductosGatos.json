@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "nombre": "Royal Canin Kitten 10kg",
+        "marca": "Royal Canin",
+        "precio": 15000,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "royal-canin-Gato-kitten--removebg-preview.png"
+        
+    },
+    {
+        "id": 2,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "marca": "Agility",
+        "nombre": "Agility Kitten 5kg",
+        "precio": 8000,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "gk-agility-Gato-kitten-removebg-preview.png"
+      
+    },
+    {
+        "id": 3,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "marca": "VitalCan",
+        "nombre": "VitalCan Balanced Kitten 7.5kg",
+        "precio": 7500,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "gk-balanced-Gato-kitten-75kg-removebg-preview.png"
+        
+    },
+    {
+        "id": 4,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "marca": "Excellent",
+        "nombre": "Excellent Kitten 7.5kg",
+        "precio": 7800,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "gk-excellent-gatito-kitten-75kg-removebg-preview.png"
+        
+    },
+    {
+        "id": 5,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "marca": "VitalCan",
+        "nombre": "VitalCan Complete Kitten 7.5kg",
+        "precio": 8000,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal":
+            "gk-complete-Gato-kitten-75kg-removebg-preview.png"
+       
+    },
+    {
+        "id": 6,
+        "categoria": "Gato",
+        "subcategoria": "adulto",
+        "marca": "Agility",
+        "nombre": "Agility Adulto 10 kg",
+        "precio": 9000,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "ga-agility-Gato-adulto-removebg-preview.png"
+    },
+    {
+        "id": 7,
+        "categoria": "Gato",
+        "subcategoria": "adulto",
+        "marca": "Cat Selection",
+        "nombre": "Cat Selection Premium Adulto 10 kg",
+        "precio": 7800,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "ga-cat-selection-adulto-x-10kg-removebg-preview.png"
+    },
+    {
+        "id": 8,
+        "categoria": "Gato",
+        "subcategoria": "adulto",
+        "marca": "Excellent",
+        "nombre": "Excellent Adulto 15 kg",
+        "precio": 15000,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "ga-excellent-Gato-adulto-removebg-preview.png"
+    },
+    {
+        "id": 9,
+        "categoria": "Gato",
+        "subcategoria": "adulto",
+        "marca": "Infinity",
+        "nombre": "Infinity adulto 10kg",
+        "precio": 8000,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "ga-infinity-Gato-adulto-10kg-removebg-preview.png"
+    },
+    {
+        "id": 10,
+        "categoria": "Gato",
+        "subcategoria": "adulto",
+        "marca": "Pro Plan",
+        "nombre": "Pro Plan Adulto 15 kg",
+        "precio": 19000,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imgPrincipal": 
+            "pro-plan-Gato-adulto--removebg-preview.png"
+        
+    },
+    {
+        "id": 11,
+        "categoria": "Gato",
+        "marca": "VitalCan",
+        "nombre": "VitalCan Complete Balance 10kg    ",
+        "precio": "9500",
+        "descuento": "30",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": "8",
+        "imgPrincipal": 
+            "gk-complete-Gato-kitten-75kg-removebg-preview.png"
+          
+        
+    }
+]
