@@ -31,7 +31,7 @@
 - 24 años.
 
 - Ilustradora digital Freelance, diseñadora UX (conocimientos basicos),Estudiante de Programacion Web en Digital House.
-- 
+
 ------------
 
 ## Te damos la bienvenida a Mundo Pets
