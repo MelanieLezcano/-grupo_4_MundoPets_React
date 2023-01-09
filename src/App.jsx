@@ -10,7 +10,7 @@ import Admin from "./components/Admin/Admin"
 
 
 import './styles/styles.css'
-import Lista from "./components/Admin/Lista";
+import Lista from "./components/Admin/lista/Lista";
 import Crear from "./components/Admin/Crear";
 import Editar from "./components/Admin/Editar";
 
