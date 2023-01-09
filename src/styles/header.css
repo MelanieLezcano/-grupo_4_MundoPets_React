@@ -1,0 +1,1383 @@
+
+header {
+   width: 100%;
+   position: relative;
+   margin-bottom: auto 0;
+
+   height: 70px;
+   z-index: 10;
+   background-color: var(--colorAzulFrancia);
+   border-bottom-right-radius: 25px;
+   border-bottom-left-radius: 25px;
+}
+
+ header{
+   position: absolute;
+   top: 0;
+}
+
+header .top {
+   height: 68px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   width: 15%;
+}
+
+header .top .logo {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   height: 65px;
+   width: 100%;
+   justify-content: space-around;
+
+}
+
+header .top .logo img {
+   height: 46px;
+   margin-left: 3px;
+
+}
+
+header .carrito {
+
+   display: none;
+}
+
+header .usuario {
+   display: none;
+
+}
+
+header .usuario i {
+   display: none;
+}
+
+
+
+header .usuario form {
+   display: none;
+}
+
+
+
+
+header .register {
+   display: none;
+}
+
+header .register li a {
+   font-size: 16px;
+   font-family: var(--fuenteSubtitulos);
+   color: white;
+
+}
+
+header .nuestrosProductos {
+   display: none;
+}
+
+header .buscador {
+   position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 4px;
+   width: 59%;
+   height: 65px;
+   top: 0;
+   left: 87px;
+
+}
+
+header .buscador form {
+   width: 100%;
+}
+
+header .buscador input {
+   padding: 0.25em 0.6em;
+   border-radius: 0.3rem;
+   border: 1px solid #d3d6e4;
+   text-align: center;
+   box-shadow: 0 2px 3px rgba(0 0 0 / 0.15);
+   width: 100%;
+   font-family: var(--fuenteSubtitulos);
+   font-weight: 600;
+   font-size: 15px;
+}
+
+header .buscador button {
+   color: white;
+   border-color: white;
+   border-radius: 0;
+   border: 0;
+   position: absolute;
+   height: 21px;
+   left: 220px;
+   top: 22px;
+   padding: 2px;
+}
+
+header .buscador .lupa {
+   color: var(--colorAzulMarino);
+   background-color: white;
+   border-radius: none;
+   border-color: white;
+   font-size: 13px;
+}
+
+ header .admin {
+   position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   width: 10%;
+   height: 65px;
+   top: 0;
+   left: 330px
+}
+
+header .admin li a {
+   font-size: 15px;
+   color: white;
+   text-decoration: none;
+}
+ 
+header .burger {
+   height: 65px;
+}
+
+header .burger label.burger-label {
+   position: absolute;
+   text-align: center;
+   top: 5px;
+   right: 7px;
+   left: 344px;
+   font-size: 30px;
+   padding: 5px 6px;
+   color: white;
+   display: inline-block;
+   height: 56px
+}
+
+header .burger input.burger-menu {
+   display: none;
+}
+
+header .menu {
+   text-align: center;
+}
+
+header .burger input.burger-menu:checked~nav {
+   display: none;
+}
+
+header .burger nav {
+   width: 100%;
+   display: block;
+   margin-top: 20px;
+   text-align: center;
+}
+
+header .burger nav ul {
+   padding-bottom: 20px;
+   margin-bottom: 0;
+   padding-left: 0;
+   background-color: rgba(127, 163, 243, 0.74);
+
+}
+
+header .burger nav ul li {
+   margin: 20px 0;
+}
+
+header .burger nav a {
+   color: white;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-family: var(--fuenteTitulos);
+}
+
+header .burger button {
+   text-align: center;
+   font-size: 18px;
+   font-family: var(--fuenteTitulos);
+   color: white;
+   background: none;
+   border: none;
+   text-transform: uppercase;
+}
+
+@media (min-width:470px) {
+   header .buscador button {
+      color: white;
+      border-color: white;
+      border-radius: 0;
+      border: 0;
+      position: absolute;
+      height: 21px;
+      left: 206px;
+      top: 22px;
+      padding: 2px;
+   }
+
+   header .burger label.burger-label {
+      position: absolute;
+      text-align: center;
+      top: 5px;
+      right: 7px;
+      left: 344px;
+      font-size: 30px;
+      padding: 5px 6px;
+      color: white;
+      display: inline-block;
+      height: 56px
+   }
+
+   @media (min-width:506px) {
+      header .buscador button {
+         left: 227px;
+      }
+
+      header .burger label.burger-label {
+         left: 408px;
+         width: 14%;
+      }
+   }
+
+   @media (min-width:544px) {
+      header .buscador button {
+         left: 227px;
+      }
+
+      header .burger label.burger-label {
+         left: 437px;
+         width: 14%;
+      }
+
+
+   }
+}
+
+@media (min-width:606px) {
+   header .buscador {
+      width: 60%;
+      left: 161px;
+   }
+
+   header .buscador button {
+      left: 331px;
+   }
+
+   header .buscador form {
+      width: 100%;
+   }
+
+   header .burger label.burger-label {
+      left: 514px;
+   }
+}
+
+@media (min-width:664px) {
+   header .buscador {
+      width: 60%;
+      left: 161px;
+   }
+
+   header .buscador button {
+      left: 331px;
+   }
+
+   header .buscador form {
+      width: 100%;
+   }
+
+   header .burger label.burger-label {
+      left: 565px;
+   }
+}
+
+
+
+/* Tablet */
+@media (min-width:768px) {
+
+   header .top {
+      height: 68px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 9%;
+   }
+
+   header .top .logo {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 65px;
+      width: 100%;
+      justify-content: space-around;
+
+   }
+
+   header .top .logo img {
+      height: 46px;
+      margin-left: 3px;
+
+   }
+
+   header .register {
+      display: block;
+      position: absolute;
+      top: 24px;
+      left: 102px
+   }
+
+   header .register li a {
+      font-size: 18px;
+   }
+
+   header .usuario {
+      position: absolute;
+      top: 7px;
+      left: 70px;
+      width: 21%;
+      height: 65px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      align-content: center;
+
+   }
+
+   header .usuario i {
+      display: none;
+   }
+   header .bienvenido{
+      text-align: center;
+   }
+
+   header .bienvenido a {
+      text-align: center;
+      font-size: 16px;
+      font-family: var(--fuenteTitulos);
+      color: white;
+   }
+
+   header .sesion {
+      display: none;
+   }
+
+   header .usuario form {
+      background-color: none;
+   }
+
+   header .usuario button {
+      display: none;
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 233px;
+      width: 55%
+   }
+
+   header .buscador form {
+      width: 100%;
+   }
+
+   header .buscador button {
+      color: white;
+      border-color: white;
+      border-radius: 0;
+      border: 0;
+      position: absolute;
+      height: 22px;
+      left: 368px;
+      top: 21px;
+      padding: 2px;
+   }
+
+   header .admin {
+      position: absolute;
+      left: 619px
+   }
+
+   header .admin li {
+      width: 100%;
+   }
+
+   header .admin a {
+      font-size: 18px;
+   }
+
+   header .burger {
+      position: absolute;
+      top: 5px;
+      left: 14px;
+      width: 96%;
+
+   }
+
+   header .burger label.burger-label,
+   input.burger-menu {
+      left: 645px;
+      top: 0px
+   }
+
+   header .burger nav {
+      width: 100%;
+      display: block;
+      margin-top: 67px;
+      text-align: center;
+   }
+
+}
+
+@media (min-width:848px) {
+   header .buscador {
+      width: 58%;
+      left: 266px;
+   }
+
+   header .buscador button {
+      left: 372px;
+   }
+
+   header .buscador form {
+      width: 100%;
+   }
+
+   header .burger label.burger-label {
+      left: 724px;
+   }
+}
+
+
+
+
+/* Desktop */
+@media (min-width:1024px) {
+
+   header .top {
+      height: 68px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 10%;
+   }
+
+   header .top .logo {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 65px;
+      width: 100%;
+      justify-content: space-around;
+
+   }
+
+
+   header .top .logo img {
+      height: 60px;
+      margin-left: 3px;
+
+   }
+
+   header .carrito {
+      position: absolute;
+      width: 4%;
+      height: 65px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+      top: 3px;
+      left: 101px;
+
+   }
+
+   header .carrito a {
+      width: 100%;
+      color: white;
+      font-size: 25px;
+   }
+
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 174px;
+      width: 26%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+   }
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario li a{
+      font-size: 19px;
+      top: 6px;
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, .sesion a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+   header .sesion {
+      display: block;
+   }
+   header .usuario .sesion a{
+      font-size: 19px;
+   }
+
+   /* header .usuario i {
+      display: block;
+      width: 100%;
+      font-size: 21px;
+      text-align: center;
+      font-family: var(--fuenteTitulos);
+      position: absolute;
+      top: 24px;
+      left: 66px;
+      color: white;
+   } */
+   
+   header .usuario form {
+      display: block;
+      text-align: center;
+   }
+
+   header .usuario button {
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+      background: none;
+      border: none;
+   }
+
+
+
+   header .register {
+      position: absolute;
+      left: 115px;
+      top: 25px;
+   }
+
+   header .register li {
+      width: 100%;
+   }
+
+
+
+
+   header .register li a {
+      font-size: 19px;
+      left: 145px;
+      top: 18px;
+  }
+
+   header .nuestrosProductos {
+      display: block;
+      position: absolute;
+      top: 24px;
+      left: 903px
+   }
+
+   header .nuestrosProductos li a {
+      font-size: 19px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 443px;
+      width: 43%;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador button {
+      color: white;
+      border-color: white;
+      border-radius: 0;
+      border: 0;
+      position: absolute;
+      height: 21px;
+      left: 404px;
+      top: 22px;
+      padding: 4px;
+   }
+
+   header .admin {
+      position: absolute;
+      left: 930px
+   }
+
+   header .admin li a {
+      font-size: 19px;
+      color: white;
+      text-decoration: none;
+   }
+
+   header .burger {
+      display: none
+   }
+
+}
+
+@media (min-width:1044px) {
+   header .carrito {
+      position: absolute;
+      width: 4%;
+      height: 65px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+      top: 3px;
+      left: 120px;
+   }
+
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 174px;
+      width: 26%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+   }
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario li a{
+      font-size: 19px;
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+}
+
+@media (min-width:1163px) {
+   header .nuestrosProductos {
+      left: 1024px
+   }
+   header .register li a{
+      font-size: 19px;
+    }
+   header .buscador {
+      position: absolute;
+      left: 464px;
+      width: 44%;
+  }
+
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 174px;
+      width: 26%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+   }
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario li a{
+      font-size: 19px;
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+   header .register {
+      position: absolute;
+      left: 126px;
+      top: 18px;
+   }
+    
+}
+/* 
+@media (min-width:1163px){
+   header .nuestrosProductos {
+      left: 1054px;
+  }
+ 
+} */
+@media (min-width:1300px) {
+   header .nuestrosProductos {
+      display: block;
+      position: absolute;
+      top: 23px;
+      left: 1091px
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 484px;
+      width: 40%;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .register {
+      position: absolute;
+      left: 126px;
+      top: 19px;
+   }
+
+   header .buscador button {
+      left: 410px;
+   }
+
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 174px;
+      width: 24%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+   }
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario li a{
+      font-size: 19px;
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+}
+
+
+
+
+/* Notebook */
+@media (min-width:1366px) {
+   header .carrito {
+      width: 4%;
+      position: absolute;
+      left: 130px;
+   }
+
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 174px;
+      width: 24%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+   }
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario .sesion a{
+      font-size: 25px;
+      left: 180px;
+      position: absolute;
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+
+   header .register {
+      position: absolute;
+      left: 145px;
+   }
+
+   header .register li a {
+      font-size: 25px;
+
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 523px;
+      width: 28%;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador input {
+      width: 168%;
+   }
+
+   header .buscador button {
+      color: white;
+      border-color: white;
+      border-radius: 0;
+      border: 0;
+      position: absolute;
+      height: 21px;
+      left: 592px;
+      top: 22px;
+      padding: 4px;
+   }
+
+   header .nuestrosProductos {
+      position: absolute;
+      top: 18px;
+      left: 1206px
+   }
+
+   header .nuestrosProductos li a {
+      font-size: 25px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+   header .admin {
+      position: absolute;
+      left: 1260px
+   }
+
+   header .admin li a {
+      font-size: 25px;
+      color: white;
+      text-decoration: none;
+   }
+
+
+   header .burger {
+      display: none
+   }
+}
+
+@media (min-width:1400px) {
+   header .carrito{
+      left: 137px;
+   }
+   header .nuestrosProductos {
+      position: absolute;
+      top: 18px;
+      left: 1203px
+   }
+
+   header .nuestrosProductos li a {
+      font-size: 25px;
+   }
+
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 189px;
+      width: 23%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+  }
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario .sesion a{
+      position: absolute;
+      font-size: 25px;
+      top: 8px;
+    left: 149px;
+}
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+   header .register li a {
+     
+      left: 145px;
+    top: 18px;
+
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+
+/* Desktop L */
+@media (min-width:1440px) {
+
+   header .top {
+      height: 68px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      width: 10%;
+   }
+
+   header .top .logo {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 65px;
+      width: 100%;
+      justify-content: space-around;
+
+   }
+
+
+   header .top .logo img {
+      height: 60px;
+      margin-left: 3px;
+
+   }
+
+   header .carrito {
+      position: absolute;
+      width: 2%;
+      height: 65px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-around;
+      top: 3px;
+      left: 142px;
+
+   }
+
+   header .carrito a {
+      color: white;
+      font-size: 25px;
+   }
+
+   
+   header .usuario {
+      display: flex;
+      position: absolute;
+      top: 10px;
+      left: 189px;
+      width: 22%;
+      height: 58px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+  }
+  header .usuario .sesion a {
+   position: absolute;
+   font-size: 25px;
+   top: 10px;
+   left: 149px;
+}
+
+   header .usuario li,
+   form {
+      width: 50%;
+   }
+   header .usuario li a{
+      font-size: 19px;
+   }
+   header .usuario button{
+      width: 100%;
+   }
+
+   header .bienvenido a, button {
+
+      text-align: center;
+      font-size: 17px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+   header .register {
+      position: absolute;
+      left: 153px;
+   }
+
+   header .register li a {
+      font-size: 25px;
+
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 509px;
+      width: 29%;
+   }
+
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador input {
+      width: 168%;
+   }
+
+   header .buscador button {
+      color: white;
+      border-color: white;
+      border-radius: 0;
+      border: 0;
+      position: absolute;
+      height: 21px;
+      left: 657px;
+      top: 22px;
+      padding: 4px;
+   }
+
+   header .nuestrosProductos {
+      position: absolute;
+      top: 20px;
+      left: 1253px
+   }
+
+   header .nuestrosProductos li a {
+      font-size: 25px;
+      font-family: var(--fuenteSubtitulos);
+      color: white;
+   }
+
+   header .admin {
+      position: absolute;
+      left: 1260px
+   }
+
+   header .admin li a {
+      font-size: 25px;
+      color: white;
+      text-decoration: none;
+   }
+
+
+   header .burger {
+      display: none
+   }
+
+}
+
+@media (min-width:1500px) {
+   header .nuestrosProductos {
+      position: absolute;
+      top: 20px;
+      left: 1344px;
+   }
+
+  /*  header .buscador button {
+      left: 872;
+   }
+
+   header .usuario li,
+   form {
+      width: 100%;
+   } */
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 552px;
+      width: 29%;
+   }
+
+
+}
+
+@media (min-width:1544px) {
+  /*  header .usuario {
+      position: absolute;
+      top: 13px;
+      left: 299px;
+      width: 12%;
+      height: 65px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: space-around;
+      align-items: center;
+      justify-content: center;
+   } */
+
+   header .buscador {
+      position: absolute;
+      left: 524px;
+      width: 31%;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador button {
+      left: 756px;
+   }
+}
+
+@media (min-width:1622px) {
+   header .carrito{
+      left: 153px;
+   }
+   header .nuestrosProductos {
+      position: absolute;
+      top: 20px;
+      left: 1480px
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 539px;
+      width: 33%;
+   }
+
+   header .buscador button {
+      left: 852px;
+   }
+
+  /*  header .usuario {
+      left: 267px;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   
+   header .usuario li,
+   form {
+      width: 100%;
+   } */
+   header .register {
+      position: absolute;
+      left: 166px;
+   }
+}
+
+@media (min-width:1800px) {
+   header .nuestrosProductos {
+      position: absolute;
+      top: 20px;
+      left: 1566px
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 531px;
+      width: 33%;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador button {
+      left: 955px;
+   }
+   header .register {
+      position: absolute;
+      left: 166px;
+   }
+
+   header .usuario {
+      width: 19%;
+   }
+
+
+ /*  header .usuario li,
+   form {
+      width: 100%;
+   } */
+}
+
+@media (min-width:1860px) {
+   header .nuestrosProductos {
+      position: absolute;
+      top: 20px;
+      left: 1619px
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 559px;
+      width: 33%;
+   }
+
+   header .buscador button {
+      left: 986px;
+   }
+
+  header .usuario {
+   width: 17%;
+   left: 207px;
+}
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .register {
+      position: absolute;
+      left: 166px;
+   }
+
+   /* header .usuario li,
+   form {
+      width: 100%;
+   } */
+}
+
+@media (min-width:1920px) {
+   header .carrito{
+      left: 174px;
+   }
+   header .nuestrosProductos {
+      position: absolute;
+      top: 20px;
+      left: 1693px
+   }
+
+   header .buscador {
+      position: absolute;
+      left: 609px;
+      width: 32%;
+   }
+
+   header .buscador form {
+      width: 100%
+   }
+
+   header .buscador button {
+      left: 985px
+   }
+
+  
+   header .register {
+      position: absolute;
+      left: 175px;
+   }
+
+   header .usuario {
+   display: flex;
+    position: absolute;
+    top: 10px;
+    left: 288px;
+    width: 14%;
+    height: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+   }
+   
+   header .usuario .sesion a {
+    font-size: 25px;
+    width: 100%;
+   }
+
+   header .usuario .sesion a {
+      position: absolute;
+      font-size: 25px;
+      top: 10px;
+      left: 29px;
+   }
+
+}

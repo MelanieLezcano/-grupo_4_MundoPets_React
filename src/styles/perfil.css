@@ -1,0 +1,216 @@
+.perfil{
+    margin: 40px;
+}
+
+.perfil .fondoCeleste{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--colorCeleste);
+    height: 80vh;
+    border-radius: 25px;
+}
+
+.perfil .article1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil .imgPosicion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.perfil .imgPerfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    
+}
+
+.perfil .imgPerfil img{
+    height: auto;
+    width: auto;
+}
+
+.perfil .fondoSaludo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.perfil .saludo{
+    width: 90%;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+
+    font-family: var(--fuenteSubtitulos);
+    color: var(--colorAzulFrancia);
+    font-size: 23px;
+    text-align: center;
+}
+
+.perfil .article2{
+    margin-top: 7%;
+
+    font-family: var(--fuenteSubtitulos);
+    color: white;
+    font-size: 22px;
+}
+
+.perfil .article2 ul li a{
+    font-family: var(--fuenteSubtitulos);
+    color: white;
+    font-size: 22px;
+}
+
+.perfil .article2 button{
+    font-family: var(--fuenteSubtitulos);
+    font-size: 22px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.perfil .article2 i{
+    padding: 8px;
+}
+
+.perfil .section2{
+    display: none;
+}
+
+@media (min-width:700px){
+
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+    }
+
+    .perfil .section1{
+        height: 100%;
+    }
+    
+    .perfil .fondoCeleste{
+        width: 50%;
+
+    }
+
+    .perfil .section2{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3vw;
+
+    }
+
+    .perfil .fondoTitulo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;    
+    }
+
+    .perfil .titulo{
+        background-color: white;
+        padding: 0 15px 0 15px;
+        border-radius: 25px;
+        font-family: var(--fuenteSubtitulos);
+        color: var(--colorNaranja);
+        font-size: 35px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .perfil .fondoBlanco1{
+        background-color: rgba(255, 255, 255, 0.918);
+        margin-top: 15px;
+        border-radius: 25px;
+        padding: 17px;
+        height: 30%;
+    }
+
+    .perfil .fondoBlanco2{
+        background-color: rgba(255, 255, 255, 0.918);
+        margin-top: 15px;
+        border-radius: 25px;
+        padding: 17px;
+        height: 60%;
+    }
+
+    .perfil .tituloDatos{
+        margin-left: 2px;
+
+        font-family: var(--fuenteSubtitulos);
+        color: var(--colorAzulMarino);
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    .perfil .subtitulo{
+        margin-left: 15px;
+        
+        font-family: var(--fuenteSubtitulos);
+        color: var(--colorAzulMarino);
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .perfil .dato{
+        margin-left: 25px;
+        
+        font-family: var(--fuenteSubtitulos);
+        color: var(--colorCeleste);
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:1024px){
+
+    .perfil{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .perfil .fondoCeleste{
+        width: 30%;
+    }
+
+    .perfil .section2{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3vw;
+
+    }
+
+    .perfil .fondoBlanco1{
+        margin-left: 3vw;
+    }
+
+    .perfil .fondoBlanco2{
+        margin-left: 3vw;
+    }
+
+    
+}
