@@ -16,7 +16,7 @@ function Producto2(props) {
         ></div>
       </div>
       <div className="card-text-box">
-        <h3 className="card-name">{props.nombre}</h3>
+        <h3 className="card-name">{props.titulo}</h3>
         <div className="card-value">
           <p className="card-discount">{props.descuento}%</p>
           <p className="card-price">${props.precio} - ({props.precio} * {props.descuento}/ 100)</p>
@@ -33,14 +33,14 @@ function Producto2(props) {
 Producto2.propTypes = {
   id:PropTypes.number,
   imagen:PropTypes.string,
-  nombre:PropTypes.string,
+  titulo:PropTypes.string,
   descuento:PropTypes.number,
   precio:PropTypes.number,
 }
 Producto2.defaultProps = {
   id:0,
   imagen:'default-image.png',
-  nombre:'Lorem ipsum amet',
+  titulo:'Lorem ipsum amet',
   descuento:0,
   precio:0,
 }

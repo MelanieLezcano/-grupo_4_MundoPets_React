@@ -107,7 +107,7 @@ return (
               key={index}
               id={producto.id}
               imagen={producto.imagen}
-              nombre={producto.nombre}
+              titulo={producto.titulo}
               descuento={producto.descuento}
               precio={producto.precio}
             />
@@ -118,7 +118,7 @@ return (
               key={index}
               id={producto.id}
               imagen={producto.imagen}
-              nombre={producto.nombre}
+              titulo={producto.titulo}
               descuento={producto.descuento}
               precio={producto.precio}
             />
@@ -129,7 +129,7 @@ return (
                key={index}
                id={producto.id}
                imagen={producto.imagen}
-               nombre={producto.nombre}
+               titulo={producto.titulo}
                descuento={producto.descuento}
                precio={producto.precio}
              />
@@ -139,7 +139,7 @@ return (
                key={index}
                id={producto.id}
                imagen={producto.imagen}
-               nombre={producto.nombre}
+               titulo={producto.titulo}
                descuento={producto.descuento}
                precio={producto.precio}
              />
