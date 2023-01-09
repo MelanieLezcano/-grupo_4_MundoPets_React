@@ -17,7 +17,7 @@ const img = `url(/img/productos/${imagen})`
         <h3 className="card-name">{titulo}</h3>
         <div className="card-value">
           <p className="card-discount">{descuento}%</p>
-          <p className="card-price">$ {precio} - ({precio} * {descuento}/ 100)</p>
+          <p className="card-price">$ {precio}{/*  - ({precio} * {descuento}/ 100) */}</p>
         </div>
       </div>
       <div className="card-button">

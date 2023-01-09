@@ -18,6 +18,7 @@ function App() {
 
   const [main, setMain] = useState(false)
   const [nosotros, setNosotros] = useState(false)
+  const [nuestrosProductos, setNuestrosProductos] = useState(false)
 
   return (
     <div className="home">
@@ -30,7 +31,7 @@ function App() {
           {/* Sobre Nosotros */}
           <Route path='/nosotros' element={<Nosotros/>}/>
         {/* Productos */}
-        <Route path='/nuestrosProductos' element={<NuestrosProductos />} />
+        <Route path='/nuestrosProductos' element={<NuestrosProductos/>} />
           {/* Admin */}
           <Route path='/admin' element={<Admin/>}/>
           <Route path='/admin/lista' element={<Lista/>}/>
