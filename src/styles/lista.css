@@ -1,6 +1,7 @@
 .lista{
     padding: 30px;
-    padding-top: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .table>:not(caption)>*>* {
@@ -41,6 +42,10 @@
 .lista .form-select{
     color: var(--colorAzulMarino);
     font-family: var(--fuenteSubtitulos);
+}
+
+.lista form{
+    width: 100%;
 }
 
 .lista h1{
