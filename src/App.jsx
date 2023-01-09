@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 
+import './styles/styles.css'
+
 import Header from "./components/partials/Header";
 import Footer from "./components/partials/Footer";
 import Main from "./components/home/Main";
 import Nosotros from "./components/conocenos/Nosotros";
 import NuestrosProductos from "./components/productos/NuestrosProductos"
+
 import Admin from "./components/Admin/Admin"
-
-
-import './styles/styles.css'
 import Lista from "./components/Admin/lista/Lista";
 import Crear from "./components/Admin/Crear";
 import Editar from "./components/Admin/Editar";
@@ -29,8 +29,8 @@ function App() {
           <Route path='/' element={<Main/>}/>
           {/* Sobre Nosotros */}
           <Route path='/nosotros' element={<Nosotros/>}/>
-          {/* Productos */}
-{/*           <Route path='/' element={<Admin/>}/> */}
+        {/* Productos */}
+        <Route path='/nuestrosProductos' element={<NuestrosProductos />} />
           {/* Admin */}
           <Route path='/admin' element={<Admin/>}/>
           <Route path='/admin/lista' element={<Lista/>}/>

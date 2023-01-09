@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/LogoMundoPets2.png'
 import { NavLink } from 'react-router-dom' 
-
+import NuestrosProductos from '../productos/NuestrosProductos'
 
 function Header() {
    

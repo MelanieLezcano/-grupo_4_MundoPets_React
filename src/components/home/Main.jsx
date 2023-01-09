@@ -18,8 +18,8 @@ import { NavLink } from 'react-router-dom'
 function Main() {
 
     return (
-        <body>
-            <main className='home'>
+        <body className='home'>
+          
                 <section className="banner1500">
                     <img src={bannerHome1500} alt="" />
                 </section>
@@ -182,7 +182,7 @@ function Main() {
                 </div>
 
 
-            </main>
+           
         </body>
 
     )
