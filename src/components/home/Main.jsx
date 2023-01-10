@@ -126,14 +126,14 @@ function Main() {
                     <div className="perroGato">
                         <section className="perro">
                             <div className="mTexto" >Perros</div>
-                            <NavLink className="centrar" to="/Perros">
+                            <NavLink className="centrar" to="/perro">
                                 <img className="imgPerroT" src={categoriaPerro} alt="" />
                             </NavLink>
                         </section>
 
                         <section className="gato">
                             <div className="mTexto">Gatos</div>
-                            <NavLink className="centrar" to="/Gatos ">
+                            <NavLink className="centrar" to="/gato ">
                                 <img className="imgGatoT" src={categoriaGato} alt="" />
                             </NavLink>
                         </section>

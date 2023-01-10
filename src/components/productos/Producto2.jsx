@@ -19,7 +19,7 @@ function Producto2(props) {
         <h3 className="card-name">{props.titulo}</h3>
         <div className="card-value">
           <p className="card-discount">{props.descuento}%</p>
-          <p className="card-price">${props.precio} - ({props.precio} * {props.descuento}/ 100)</p>
+          <p className="card-price">${props.precio} {/* - ({props.precio} * {props.descuento}/ 100) */}</p>
         </div>
       </div>
       <div className="card-button">

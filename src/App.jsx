@@ -8,6 +8,8 @@ import Footer from "./components/partials/Footer";
 import Main from "./components/home/Main";
 import Nosotros from "./components/conocenos/Nosotros";
 import NuestrosProductos from "./components/productos/NuestrosProductos"
+import Gato from "./components/productos/Gato"
+import Perro from "./components/productos/Perro"
 
 import Admin from "./components/Admin/Admin"
 import Lista from "./components/Admin/lista/Lista";
@@ -19,6 +21,8 @@ function App() {
   const [main, setMain] = useState(false)
   const [nosotros, setNosotros] = useState(false)
   const [nuestrosProductos, setNuestrosProductos] = useState(false)
+  const [gato, setGato] = useState(false)
+  const [perro, setPerro] = useState(false)
 
   return (
     <div className="home">
@@ -32,6 +36,8 @@ function App() {
           <Route path='/nosotros' element={<Nosotros/>}/>
         {/* Productos */}
         <Route path='/nuestrosProductos' element={<NuestrosProductos/>} />
+        <Route path='/gato' element={<Gato/>} />
+        <Route path='/perro' element={<Perro/>} />
           {/* Admin */}
           <Route path='/admin' element={<Admin/>}/>
           <Route path='/admin/lista' element={<Lista/>}/>

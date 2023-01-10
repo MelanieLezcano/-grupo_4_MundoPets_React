@@ -11,11 +11,11 @@
 }
 
 
-.mainDesktop{
+.home .mainDesktop{
     display: none;
 }
 
-.mainMobile{
+.home .mainMobile{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23,13 +23,13 @@
 }
 
 
-.mainMobile .bannerMobile img{
+.home .mainMobile .bannerMobile img{
     position: relative;
     width: 100%;
     object-fit: contain;
 }
 
-.mainMobile .section1 {
+.home .mainMobile .section1 {
     width: 100%;
     margin-top: 15px;
     padding: 8px;
@@ -37,7 +37,7 @@
     margin-bottom: 33px;
 }
 
-.mainMobile .spanAzul {
+.home .mainMobile .spanAzul {
     font-family: var(--fuenteTitulos);
     color: var(--colorAzulFrancia);
     text-align: center;
@@ -46,7 +46,7 @@
     font-weight: 500;
 }
 
-.mainMobile .spanNaranja {
+.home .mainMobile .spanNaranja {
     font-family: var(--fuenteTitulos);
     color: var(--colorNaranja);
     text-align: center;
@@ -55,12 +55,12 @@
     font-weight: 500;
 }
 
-.mainMobile .divTitulo{
+.home .mainMobile .divTitulo{
     width: 100%;
     margin-bottom: 6px;
 }
 
-.mainMobile .spanTitulo{
+.home .mainMobile .spanTitulo{
     background-color: rgba(255, 255, 255, 0.918);
     padding: 7px;
     padding-top: 12px;
@@ -70,7 +70,7 @@
     text-align: center;
 }
 
-.mainMobile .logos {
+.home .mainMobile .logos {
     
     width: 100%;
     display: flex;
@@ -80,29 +80,29 @@
     background-color: white
 }
 
-.mainMobile .logos img {
+.home .mainMobile .logos img {
     width: 20%;
     padding: 10px;
 }
 
-.mainMobile .destacadosP{
+.home .mainMobile .destacadosP{
     text-align: center;
 }
 
-.mainMobile .links{
+.home .mainMobile .links{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.mainMobile .perroGato{
+.home .mainMobile .perroGato{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.mainMobile a{
+.home .mainMobile a{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -111,7 +111,7 @@
 
 
 
-.mainMobile .gato img{
+.home .mainMobile .gato img{
     width: 85%;
     height: auto;
     border-radius: 20px;
@@ -119,13 +119,13 @@
     margin: 15px;
 }
 
-.mainMobile .gato{
+.home .mainMobile .gato{
     position: relative;
     display: inline-block;
     width: 100%;
 }
 
-.mainMobile .mTexto{
+.home .mainMobile .mTexto{
   position: absolute;
   top: 52px;
   left: 15%;
@@ -135,13 +135,13 @@
   font-weight: 500;
 }
 
-.mainMobile .perro{
+.home .mainMobile .perro{
     position: relative;
     display: inline-block;
     width: 100%;
 }
 
-.mainMobile .perro img{
+.home .mainMobile .perro img{
     width: 85%;
     height: auto;
     border-radius: 20px;
@@ -149,7 +149,7 @@
     margin: 15px;
 }
 
-.mainMobile .centrar{
+.home .mainMobile .centrar{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -158,7 +158,7 @@
 }
 
 
-.mainMobile .nosotros{
+.home .mainMobile .nosotros{
 
     width: 85%;
     height: 180px;
@@ -169,7 +169,7 @@
     padding: 8px;
 }
 
-.mainMobile .contacto{
+.home .mainMobile .contacto{
 
     width: 85%;
     height: 180px;
@@ -181,31 +181,31 @@
     margin-bottom: 50px;
 }
 
-.mainMobile .paw{
+.home .mainMobile .paw{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.mainMobile .patita{
+.home .mainMobile .patita{
     font-size: 75px;
     text-align: center;
     color: white;
     padding: 0%;
 }
 
-.mainMobile .nosotrosText{
+.home .mainMobile .nosotrosText{
     font-size: 30px;
     text-align: center;
     color: white;
     font-family: var(--fuenteSubtitulos);
 }
 
-.mainMobile .imgPerroT{
+.home .mainMobile .imgPerroT{
     display: none;
 }
 
-.mainMobile .imgGatoT{
+.home .mainMobile .imgGatoT{
     display: none;
 }
 
@@ -380,36 +380,36 @@
   }  
 
   @media (min-width:426px){
-    .mainMobile .perroGato{
+    .home .mainMobile .perroGato{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
-    .mainMobile .imgGato{
+    .home .mainMobile .imgGato{
         display: none;
     }
     
-    .mainMobile .imgPerro{
+    .home .mainMobile .imgPerro{
         display: none;
     }
 
-    .mainMobile .imgPerroT{
+    .home .mainMobile .imgPerroT{
         display: flex;
     }
 
-    .mainMobile .imgGatoT{
+    .home .mainMobile .imgGatoT{
         display: flex;
     }
 
-    .mainMobile .perro img {
+    .home .mainMobile .perro img {
         width: 84%;
     }
-    .mainMobile .gato img {
+    .home .mainMobile .gato img {
         width: 84%;
     }
 
-    .mainMobile .mTexto {
+    .home  .mainMobile .mTexto {
 
         top: 58px;
         left: 12%;
@@ -417,86 +417,86 @@
     
     }
 
-    .mainMobile .nosotros {
+    .home  .mainMobile .nosotros {
         width: 84%;
         height: 188px;
     }
 
-    .mainMobile .contacto {
+    .home  .mainMobile .contacto {
         width: 84%;
         height: 188px;
     }
     
-    .mainMobile .row{
+    .home  .mainMobile .row{
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    .mainMobile a {
+    .home .mainMobile a {
         display:block;
         /* flex-direction: row; */
         /* justify-content: center; */
         width: 100%;
     }
 
-    .mainMobile .nosotrosText {
+    .home .mainMobile .nosotrosText {
         font-size: 22px;
     }
   }
 
   @media (min-width:700px){
 
-    .mainMobile .perro img {
+    .home .mainMobile .perro img {
         width: 60%;
     }
 
-    .mainMobile .gato img {
+    .home  .mainMobile .gato img {
         width: 60%;
     }
 
-    .mainMobile .mTexto {
+    .home .mainMobile .mTexto {
       top: 85px;
       left: 22%;
       font-size: 59px;
   }
     }
 
-    .mainMobile .nosotros {
+    .home  .mainMobile .nosotros {
         width: 61%;
         height: 200px;
     }
 
-    .mainMobile .contacto {
+    .home .mainMobile .contacto {
         width: 61%;
         height: 200px;
     }
 
-    .mainMobile .spanTitulo {
+    .home .mainMobile .spanTitulo {
         padding: 9px;
         padding-top: 18px;
     }
 
-    .mainMobile .spanAzul {
+    .home .mainMobile .spanAzul {
         font-size: 39px;
     }
 
-    .mainMobile .spanNaranja {
+    .home .mainMobile .spanNaranja {
         font-size: 39px;
     }
 
-    .mainMobile .links {
+    .home  .mainMobile .links {
         margin-top: 35px;
     }
     
 
   @media (min-width:1024px) {
 
-    .mainMobile .bannerMobile{
+    .home  .mainMobile .bannerMobile{
       display: none;
     }
     
-    .home .banner1500{
+    .home .home .banner1500{
       display: none;
     }
     
@@ -504,13 +504,13 @@
       display: flex;
     }
     
-    .mainMobile{
+    .home  .mainMobile{
       display: none;
     }
 
 
     
-    .mainDesktop{
+    .home .mainDesktop{
       display: flex;
       width: 100%;
       flex-direction: column;
@@ -520,7 +520,7 @@
     }
     
 
-.mainDesktop .perroGato{
+    .home .mainDesktop .perroGato{
 width: 100%;
     display: flex;
     flex-direction: row;
@@ -529,7 +529,7 @@ width: 100%;
     top: -562px;
 }
 
-.mainDesktop .gato img{
+.home .mainDesktop .gato img{
   width: 300px;
   height: auto;
   border-radius: 20px;
@@ -538,12 +538,12 @@ width: 100%;
 
 }
 
-.mainDesktop .gato:hover img{
+.home .mainDesktop .gato:hover img{
   transform: scale(1.1)
             rotate(7deg);
 }
 
-.mainDesktop .gato{
+.home .mainDesktop .gato{
   width: 300px;
   height: auto;
   border-radius: 20px;
@@ -554,13 +554,13 @@ width: 100%;
 
 }
 
-.mainDesktop .destacadosP{
+.home .mainDesktop .destacadosP{
     top: -487px;
     position: relative;
     text-align: center;
 }
 
-.mainDesktop .mTexto{
+.home .mainDesktop .mTexto{
   position: absolute;
   top: 68px;
   left: 3%;
@@ -572,7 +572,7 @@ width: 100%;
 
 }
 
-.mainDesktop .perro{
+.home .mainDesktop .perro{
   width: 300px;
   height: auto;
   border-radius: 20px;
@@ -582,7 +582,7 @@ width: 100%;
     display: inline-block;
 }
 
-.mainDesktop .perro img{
+.home .mainDesktop .perro img{
   width: 300px;
   height: auto;
   border-radius: 20px;
@@ -590,18 +590,18 @@ width: 100%;
   transition: 0.3s all ease-in-out;
 }
 
-.mainDesktop .perro:hover img{
+.home .mainDesktop .perro:hover img{
   transform: scale(1.1)
             rotate(7deg);
 }
 
 
-.mainDesktop .divTitulo{
+.home .mainDesktop .divTitulo{
     width: 100%;
     text-align: center;
 }
 
-.mainDesktop .spanTitulo{
+.home .mainDesktop .spanTitulo{
     top: 680px;
     height: 48px;
     background-color: rgba(255, 255, 255, 0.918);
@@ -613,7 +613,7 @@ width: 100%;
     text-align: center;
 }
 
-.mainDesktop .spanAzul {
+.home .mainDesktop .spanAzul {
 font-family: var(--fuenteTitulos);
 color: var(--colorAzulFrancia);
 text-align: center;
@@ -622,7 +622,7 @@ font-size: 40px;
 font-weight: 500;
 }
 
-.mainDesktop .spanNaranja {
+.home .mainDesktop .spanNaranja {
 font-family: var(--fuenteTitulos);
 color: var(--colorNaranja);
 text-align: center;
@@ -631,7 +631,7 @@ font-size: 40px;
 font-weight: 500;
 }
 
-.mainDesktop .marcas{
+.home .mainDesktop .marcas{
 position: absolute;
 top: 680px;
 height: 48px;
@@ -642,7 +642,7 @@ padding-left: 22px;
 border-radius: 20px;
 }
 
-.mainDesktop .logos {
+.home .mainDesktop .logos {
     top: 783px;
     margin: 0 auto;
     width: 100%;
@@ -654,7 +654,7 @@ border-radius: 20px;
     background-color: white;
 }
 
-.mainDesktop .logos img {
+.home .mainDesktop .logos img {
     
     width: 23%;
     padding: 10px;
@@ -828,12 +828,12 @@ border-radius: 20px;
   }
 }  
 
-.mainDesktop .section1{
+.home .mainDesktop .section1{
     top: 58px;
     position: relative;
 }
 
-  .mainDesktop .quienSomos {
+.home .mainDesktop .quienSomos {
     background-color: rgba(255, 255, 255, 0.918);
     position: relative;
     display: flex;
@@ -845,25 +845,25 @@ border-radius: 20px;
     padding-bottom: 54px;
     top: 142px;
 }
-.mainDesktop .quienSomos img {
+.home .mainDesktop .quienSomos img {
     width: 84%;
     margin-top: 124px;
     
 }
 
-.mainDesktop .textoColum{
+.home .mainDesktop .textoColum{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-right: 10px;
 }
 
-.mainDesktop .spanQuienesSomos{
+.home .mainDesktop .spanQuienesSomos{
     display: flex;
     flex-direction: row;
 }
 
-.mainDesktop .textoQuienes{
+.home .mainDesktop .textoQuienes{
     font-family: var(--fuenteSubtitulos);
     color: var(--colorAzulFrancia);
     margin-bottom: 5px;
@@ -872,7 +872,7 @@ border-radius: 20px;
     font-weight: 500;
 }
 
-.mainDesktop .textoSomos{
+.home .mainDesktop .textoSomos{
     font-family: var(--fuenteSubtitulos);
     color: var(--colorNaranja);
     margin-bottom: 5px;
@@ -881,7 +881,7 @@ border-radius: 20px;
     font-weight: 500;
 }
 
-.mainDesktop .spanParrafo{
+.home .mainDesktop .spanParrafo{
     text-align: left;
     color: black;
     font-size: 22px;
