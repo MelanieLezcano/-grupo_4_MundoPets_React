@@ -233,6 +233,7 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
+   
   }
   .home .glider {
     margin: 0 auto;
@@ -241,6 +242,7 @@
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
     transform: translateZ(0);
+   
   }
   .home  .glider-track {
     transform: translateZ(0);
@@ -521,12 +523,12 @@
     
 
     .home .mainDesktop .perroGato{
-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
-    top: -562px;
+    top: -501px;
 }
 
 .home .mainDesktop .gato img{
@@ -690,6 +692,10 @@ border-radius: 20px;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   transform: translateZ(0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+ 
 }
 .home  .glider-track {
   transform: translateZ(0);
@@ -891,9 +897,9 @@ border-radius: 20px;
 
 @media (min-width:1500px){
 
-  .home .banner{
+  /* .home .banner{
     display: none;
-  }
+  } */
 
   .home .banner1500{
     display: flex;

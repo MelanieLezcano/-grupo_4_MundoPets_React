@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../styles/cards.css'
+
+
 function Producto({id,imagen,titulo,descuento,precio}) {
 
 const img = `url(/img/productos/${imagen})`

@@ -22,6 +22,7 @@
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
   transform: translateZ(0);
+  
 }
  .glider-track {
   transform: translateZ(0);

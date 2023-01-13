@@ -1,0 +1,73 @@
+[
+   
+    {
+        "id": 2,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "marca": "Agility",
+        "titulo": "Agility Kitten 5kg",
+        "precio": 8000,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imagen": 
+            "gk-agility-Gato-kitten-removebg-preview.png"
+      
+    },
+    {
+        "id": 3,
+        "categoria": "Gato",
+        "subcategoria": "alimentos",
+        "marca": "VitalCan",
+        "titulo": "VitalCan Balanced Kitten 7.5kg",
+        "precio": 7500,
+        "descuento": 10,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imagen": 
+            "gk-balanced-Gato-kitten-75kg-removebg-preview.png"
+        
+    },
+   
+    {
+        "id": 21,
+        "categoria": "Gato",
+        "marca": "VitalCan",
+        "titulo": "VitalCan Complete Balance 10kg    ",
+        "precio": "9500",
+        "descuento": "30",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": "8",
+        "imagen": 
+            "gk-complete-Gato-kitten-75kg-removebg-preview.png"
+          
+        
+    },{
+        "id": 11,
+        "categoria": "Perro",
+        "subcategoria": "alimentos",
+        "titulo": "Infinity cachorro 10kg",
+        "marca": "Infinity",
+        "precio": 15000,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imagen": 
+            "infinity-Perro-cachorro-10kg-removebg-preview.png"
+        
+    },
+    {
+        "id": 12,
+        "categoria": "Perro",
+        "subcategoria": "alimentos",
+        "marca": "Agility",
+        "titulo": "Agility Cachorro 5kg",
+        "precio": 8000,
+        "descuento": 20,
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, placeat eius perferendis aspernatur doloribus aliquid, quibusdam aperiam hic a tenetur! Quis rem aut qui expedita ut aspernatur nisi officiis.",
+        "stock": 13,
+        "imagen": 
+            "pc-agility-Perro-cachorro-removebg-preview.png"
+    }
+    
+]
